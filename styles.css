@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    background-color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #3498db;
+  }
+  
+  #todoList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #todoList li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #todoList li .topics {
+    display: none;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  #addTodoForm {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  #newTodo {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  #addTodoForm button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  #progressFill {
+    background-color: #2ecc71;
+    height: 100%;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
